@@ -27,9 +27,9 @@ class Contact extends React.Component {
 }
 
 /** Require a document to be passed to this component. */
-StuffItem.propTypes = {
+Contact.propTypes = {
   contact: PropTypes.object.isRequired,
 };
 
 /** Wrap this component in withRouter since we use the <Link> React Router element. */
-export default withRouter(StuffItem);
+export default withRouter(Contact);
