@@ -7,7 +7,6 @@ const Contacts = new Mongo.Collection('Contacts');
 
 /** Define a schema to specify the structure of each document in the collection. */
 const ContactsSchema = new SimpleSchema({
-  name: String,
   firstName: String,
   lastName: String,
   address: String,
